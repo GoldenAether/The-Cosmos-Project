@@ -9,7 +9,7 @@
 -Newest build Release Date: 12/03/2025<br>
 -Cosmos Update: Original Beta Release<br>
 <br>
-<strong>Cosmos Version Legand:</strong><br>
+# Cosmos Version Legand:
 <br>
 a = Alpha Build<br>
 <br>

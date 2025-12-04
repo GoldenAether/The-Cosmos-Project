@@ -11,6 +11,6 @@ Cosmos Update: Original Beta Release
 This build is recommended for developers and testers
 Please report any bugs that are found
 
-# Thank You to windnedr for letting use the origanal  Harmony code and for extra coding help
+<strong>Thank You to windnedr for letting use the origanal  Harmony code and for extra coding help</strong>
 
 # -The Cosmos Project by Aether

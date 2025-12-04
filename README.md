@@ -8,6 +8,7 @@
 -Newest Cosmos Build: 1.0.0b<br>
 -Newest build Release Date: 12/03/2025<br>
 -Cosmos Update: Original Beta Release<br>
+<strong>-Thank You to windnedr for letting me use the origanal Harmony code and for extra coding help</strong><br>
 <br>
 # Cosmos Version Legand:
 <br>
@@ -21,11 +22,7 @@ l = lite Build<br>
 <br>
 RC = Release Canidate<br>
 <br>
-If there isn't any of these at the end of your version number in the info tab you have a regular release
-<br>
-<br>
-<br>
-<strong>-Thank You to windnedr for letting me use the origanal Harmony code and for extra coding help</strong><br>
+If there isn't any of these at the end of your version number in the info tab you have a regular release<br>
 <br>
 <br>
 <br>

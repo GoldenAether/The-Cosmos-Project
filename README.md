@@ -25,7 +25,7 @@ If there isn't any of these at the end of your version number in the info tab yo
 <br>
 <br>
 <br>
-<strong>-Thank You to windnedr for letting use the origanal  Harmony code and for extra coding help</strong><br>
+<strong>-Thank You to windnedr for letting me use the origanal Harmony code and for extra coding help</strong><br>
 <br>
 <br>
 <br>

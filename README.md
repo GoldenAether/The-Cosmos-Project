@@ -21,17 +21,17 @@
 <br>
 -Please report any bugs that are found<br>
 <br>
-Cosmos Version Legand:
+<strong>Cosmos Version Legand:</strong><br>
 <br>
-a = Alpha Build
+a = Alpha Build<br>
 <br>
-b = Beta Build
+b = Beta Build<br>
 <br>
-d = Developer Build
+d = Developer Build<br>
 <br>
-l = lite Build
+l = lite Build<br>
 <br>
-RC = Release Canidate
+RC = Release Canidate<br>
 <br>
 If there isn't any of these at the end of your version number in the info tab you have a regular release
 <br>

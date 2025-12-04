@@ -1,25 +1,13 @@
 # ![alt text](https://github.com/GoldenAether/The-Cosmos-Project/blob/main/assets/Cosmos-Logo.png)
 -Guess what? Its another distro of Harmony<br>
-<br>
 -This distro is currently in beta and final release is coming soon<br>
-<br>
 -Harmony 2.0 support is planned but not my main priority<br>
-<br>
 -Built off Harmony 1.0.0<br>
-<br>
 -Harmony 1.0.0 server hosted by windnedr<br>
-<br>
 -Managed by GoldenAether<br>
-<br>
--Current Cosmos Build: Beta<br>
-<br>
+-Newest Cosmos Build: 1.0.0b<br>
 -Newest build Release Date: 12/03/2025<br>
-<br>
 -Cosmos Update: Original Beta Release<br>
-<br>
--This build is recommended for developers and testers<br>
-<br>
--Please report any bugs that are found<br>
 <br>
 <strong>Cosmos Version Legand:</strong><br>
 <br>

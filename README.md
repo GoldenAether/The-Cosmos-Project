@@ -16,7 +16,7 @@ a = Alpha Build<br>
 <br>
 b = Beta Build<br>
 <br>
-d = Developer Build<br>
+DEV = Developer Build<br>
 <br>
 l = lite Build<br>
 <br>

@@ -10,20 +10,4 @@
 -Cosmos Update: Original Beta Release<br>
 <strong>-Thank You to windnedr for letting me use the origanal Harmony code and for extra coding help</strong><br>
 <br>
-# Cosmos Version Legand:
-<br>
-a = Alpha Build<br>
-<br>
-b = Beta Build<br>
-<br>
-DEV = Developer Build<br>
-<br>
-l = lite Build<br>
-<br>
-RC = Release Canidate<br>
-<br>
-If there isn't any of these at the end of your version number in the info tab you have a regular release<br>
-<br>
-<br>
-<br>
 <strong>-The Cosmos Project by Aether</strong><br>

@@ -12,6 +12,26 @@
     <link rel="icon" type="image/x-icon" href="./favicon.ico">
 </head>
 <body>
+<div id="startup-overlay">
+  <img src="./assets/Cosmos-Logo.png" alt="Cosmos Logo" id="startup-logo">
+</div>
+  <div id="sidebar" h>
+<div class="menuBtnContainer">
+    <button class="Info" onclick="popup_info()">
+      <img src="./assets/info.png">
+    </button>
+    <button id="emojiBtn" title="Emoji Picker" onclick="toggleEmojiPopup()">
+      <img src="./assets/emoji.png" alt="Emoji">
+    </button>
+    <p id="roomName"></p>
+    <div id="emojiPopup" style="display:none; position: fixed; top: 44px; left: 50px; background: rgba(255,255,255,0.15); border-radius: 100px; padding: 8px; backdrop-filter: blur(20px); max-width: 500px; max-height: auto; overflow-y: auto; z-index:10001; width: 40px; height: 420px; flex-direction: column; flex-wrap: nowrap; align-content: center; align-items: stretch; justify-content: column; align-items: center;">
+      <!-- emojis will be dynamically inserted here -->
+    </div>
+</div>
+<footer>
+  <footer>
+  </div>
+  <div class="msgWindow">
     <div id="notifBanner" onclick="output.scroll({
       top: 1000000,
       left: 0,
@@ -21,10 +41,15 @@
     <noscript>Your browser does not support the world of Cosmos!</noscript>
     <div id="output"></div>
     <script src="./client.js"></script>
-
-    <button class="Info" onclick="popup_info()"><img src="./assets/info.svg"></button>
-    
-    <div class="msgBar">
-    <input type="text" placeholder="Type here to communicate to the universe" id="msg-box"> <button onclick="send()"><img src="./assets/send-Arrow.svg"></button>
-    <div class="msgBar">
+<link href='http://fonts.googleapis.com/css?family=Ubuntu&subset=cyrillic,latin' rel='stylesheet' type='text/css' />
+<style type="text/css" >
+    body {
+        font-family : 'Ubuntu';
+        font-weight: bold;
+    }
+</style>
+<div class="msgBar">
+  <input type="text" placeholder="Type here to communicate to the universe" id="msg-box" autocomplete="on" autocorrect="on" autocapitalize="on" spellcheck="true">
+  <button onclick="send()"><img src="./assets/send-Arrow.svg"></button>
+</div>
 </body>

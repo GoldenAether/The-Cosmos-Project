@@ -32,7 +32,7 @@
         y: random(0, h),
         radius: random(0.3, 1.2),
         alpha: random(0.1, 0.9),
-        twinkleSpeed: random(0.002, 0.006),
+        twinkleSpeed: random(0.01, 0.03),
         twinklePhase: Math.random() * Math.PI * 2,
         vx: random(-0.3, 0.3),
         vy: random(-0.3, 0.3),
@@ -55,7 +55,7 @@
   function updateStars() {
     for (const star of stars) {
       // twinkle effect
-      star.alpha += star.twinkleSpeed * Math.sin(performance.now() * 0.005 + star.twinklePhase);
+      star.alpha += star.twinkleSpeed * Math.sin(performance.now() * 0.01 + star.twinklePhase);
       star.alpha = Math.min(Math.max(star.alpha, 0.1), 1);
 
       // Move randomly using velocity
@@ -173,7 +173,7 @@ var unreads = 0
 var username = getCookie("usrnam")
 
 if (username == "" || username == "null"){
-  username = prompt("Please enter a username (This cannot be changed)")
+  username = prompt("Please enter a username to use Cosmos (This can be changed with refresh but you will lose your chat history)")
   document.cookie = "usrnam=" + username
 }
 
@@ -370,5 +370,64 @@ function popup_info(){
 document.body.addEventListener("keyup", (e) => {
   if (e.key == "Enter") {
     send()
+  }})
+  const emojiList = [
+  "happy.svg",
+  "laugh.svg",
+  "smug.svg",
+  "sad.svg",
+  "tears.svg",
+  "crying.svg",
+  "tired.svg",
+  "dizzy.svg",
+  "suspicious.svg",
+  "angry.svg",
+  "evil.svg",
+  // Add your emoji filenames here from /assets/emojis/
+];
+
+function toggleEmojiPopup() {
+  const popup = document.getElementById("emojiPopup");
+  if (popup.style.display === "none" || popup.style.display === "") {
+    popup.style.display = "flex";
+    popup.style.flexWrap = "wrap";
+    loadEmojis();
+  } else {
+    popup.style.display = "none";
   }
-})
+}
+
+function loadEmojis() {
+  const popup = document.getElementById("emojiPopup");
+  if (popup.children.length > 0) return; // Prevent re-adding emojis
+
+  emojiList.forEach(name => {
+    const img = document.createElement("img");
+    img.src = "./assets/emojis/" + name;
+    img.alt = name.replace(".png", "");
+    img.title = img.alt;
+    img.style.width = "30px";
+    img.style.height = "30px";
+    img.style.cursor = "pointer";
+    img.style.margin = "4px";
+    img.onclick = () => addEmojiToInput(name);
+    popup.appendChild(img);
+  });
+}
+
+function addEmojiToInput(fileName) {
+  const input = document.getElementById("msg-box");
+  const emojiTag = `<e:./assets/emojis/${fileName}>`;
+  const start = input.selectionStart;
+  const end = input.selectionEnd;
+  const text = input.value;
+  input.value = text.substring(0, start) + emojiTag + text.substring(end);
+  input.selectionStart = input.selectionEnd = start + emojiTag.length;
+  input.focus();
+}
+
+document.body.addEventListener("keyup", (e) => {
+  if (e.key == "Enter") {
+    send();
+  }
+});

@@ -21,15 +21,3 @@ Bug Fixes Added:
 <strong>-Thank You to windnedr for letting me use the Harmony Server and extra coding help</strong><br>
 <br>
 <strong>-The Cosmos Project by Aether</strong><br>
-Bug Fixes Added:
-- Fixed and moved emoji picker so it actually pastes to textbox 
-- updated crying.svg emoji to sob.svg 
-- Info Page in now named "About Cosmos"
-- added link for Harmony in the About Page
-- Changed base update name from Official to Regular
-- Added Info about who manages Harmony and Cosmos
-- Added more links to socials
-- "Contact Me" button added in footer of About Page
-- Logo Updated
-- Basic Version number changes through out the About Page
-- Thanks again for dealing with some of these problems while I iron them out stuff should work better now and expect a new file upload button in next version of Cosmos @windnedr has made a beta version of file upload and will be tested publicly through out the month starting next week
